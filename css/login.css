@@ -1,0 +1,74 @@
+/* Resetting default body margin */
+body {
+    margin: 0;
+}
+
+/* Setting background color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Centering h1 and form */
+h1, form {
+    text-align: center;
+}
+
+/* Styling form container */
+#top {
+    background-color: #fff;
+    width: 30%;
+    padding: 40px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+/* Styling form elements */
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Styling submit button */
+#sub {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sub:hover {
+    background-color: #0056b3;
+}
+
+/* Styling form container on hover */
+#top:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling h1 */
+h1 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    color: #007bff;
+}
+
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}

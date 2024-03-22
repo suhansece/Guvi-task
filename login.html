@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Bootstrap CSS for form elements only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-{new-hash}" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <div id="top" class="container">
+        <h1>Login <strong>here</strong></h1>
+        <br>
+        <!-- Form tag for login -->
+        <form id="loginForm">
+            <div>
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control mb-2" type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password1" class="form-label">Password</label>
+                <input class="form-control mb-2" type="password" name="password1" id="password1" placeholder="Password" required>
+            </div>
+            <br>
+            <button id="sub" type="button" class="btn btn-primary">Submit</button>
+        </form>
+        <br>
+        <h3 id="text">Don't have an account, <a href="register.html">Register</a></h3>
+    </div>
+</body>
+</html>

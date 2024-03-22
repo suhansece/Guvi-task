@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-{new-hash}" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/profile.js"></script>
+</head>
+<body>
+    <div id="top" class="container">
+        <div class="card">
+            <img class="img-account-profile rounded-circle mb-2 mx-auto d-block " src="http://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+            <br>
+            <button class="btn" type="button">Upload new image</button>
+        </div>
+        <br>
+        <label for="name">Name</label><br>
+        <input class="form-control mb-2" id="name" type="text" name="name"><br>
+        <label for="email">Email</label><br>
+        <input class="form-control mb-2" type="email" id="email" required><br>
+        <label for="dob">DOB</label><br>
+        <input class="form-control mb-2" type="date" id="dob" required><br>
+        <label for="phone">Mobile No</label><br>
+        <input class="form-control mb-2" type="tel" id="phone" required><br>
+        <label for="address">Address</label><br>
+        <input class="form-control mb-2" type="text" id="address" required><br>
+        <button id="sub" type="button" class="btn btn-primary">Save Profile</button>
+    </div>
+</body>
+</html>
