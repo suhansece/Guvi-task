@@ -1,28 +1,49 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #007bff; /* Blue color */
+    margin-top: 50px;
+}
+
+/* Navigation styles */
 ul {
     list-style-type: none;
-    margin-top: 10%;
     padding: 0;
     text-align: center;
-    padding: 20px;
-  }
-li{
+    margin-top: 30px;
+}
+
+ul li {
     display: inline;
-    padding: 20px;
+    margin-right: 20px;
 }
-a{
-    padding: 20px;
+
+ul li a {
     text-decoration: none;
-    color: black;
-    background-color: rgb(192, 232, 218);
-    border-radius: 2px;
+    color: #333; /* Dark gray color */
+    font-size: 18px;
+    padding: 10px 20px; /* Padding to create button-like shape */
+    border: 2px solid transparent; /* Transparent border for hover effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for transform effect */
 }
-a:hover{
-    color: beige;
-}
-body{
-    background-color: rgb(206, 240, 228);
-}
-#text{
-    text-align: center;
-    margin-top: 100px;
+
+ul li a:hover {
+    background-color: #007bff; /* Blue background color on hover */
+    color: #fff; /* White text color on hover */
+    border-color: #007bff; /* Blue border color on hover */
 }

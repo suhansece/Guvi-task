@@ -13,13 +13,14 @@ $(document).ready(function() {
             url: 'php/profile.php',
             type: 'post',
             data: data,
+            dataType: 'json',
             success: function(response) {
                 // Handle success and possible redirects
                 console.log(response);
                 // Example: reload page upon success
                 window.location.reload();
             },
-            error: function(xhr, status, error) {
+            error: function(error) {
                 // Handle errors
                 console.error(error);
                 alert("An error occurred while updating profile.");
